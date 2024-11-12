@@ -1,10 +1,16 @@
 article {
   margin: 0 auto;
   max-width: 800px;
-  padding: 40vh 0;
+  padding: 40vh 32px;
 
   color: var(--dark);
   isolation: isolate;
+}
+
+@media (max-width: 768px) {
+  article {
+    padding: 40vh 24px;
+  }
 }
 
 article a {
